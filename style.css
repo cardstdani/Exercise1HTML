@@ -1,0 +1,56 @@
+.txt:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.center-text {
+    width:100%;    
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.primary-color-background {
+  background-color:#1f1f1f;
+}
+
+.white-color-background {
+  background-color:#ffffff;
+}
+
+.white-color {
+  color:#ffffff;
+}
+
+.dark-color {
+  color:#1f1f1f;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.bold {
+  font-family: 'Gelion-bold';
+}
+
+.thin {
+  font-family: 'Gelion-thin';
+}
+
+.bold-italic {
+  font-family: 'Gelion-thin';
+}
+
+@font-face { font-family: 'Gelion-thin'; src: url('GelionFont/GELION-THIN.TTF');}
+@font-face { font-family: 'Gelion-bold-italic'; src: url('GelionFont/GELION-BOLDITALIC.TTF');}
+@font-face { font-family: 'Gelion-bold'; src: url('GelionFont/GELION-BOLD.TTF');}
